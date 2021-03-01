@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/responsive.css">
+
+    <title>Teorema de Pitágoras</title>
+</head>
+<body>
+    <main>
+
+        <div class="container">
+            <h1>Teorema de Pitágoras</h1>
+
+            <p>
+                “Em qualquer triângulo retângulo, o quadrado do comprimento da hipotenusa é igual à soma dos quadrados dos comprimentos dos catetos.” <br>
+
+                Por definição, a hipotenusa é o lado oposto ao ângulo reto, e os catetos são os dois lados que o formam. O enunciado anterior relaciona comprimentos, mas o teorema também pode ser enunciado como uma relação entre áreas: <br>
+                
+                “Em qualquer triângulo retângulo, a área do quadrado cujo lado é a hipotenusa é igual à soma das áreas dos quadrados cujos lados são os catetos.” <br>
+
+                Para ambos os enunciados, pode-se equacionar <br>
+                
+                c<sup>2 </sup> = b<sup>2</sup> + a<sup>2</sup> <br>
+
+                onde c representa o comprimento da hipotenusa, e a e b representam os comprimentos dos outros dois lados. <br>
+                Leia mais em <a href="https://pt.wikipedia.org/wiki/Teorema_de_Pit%C3%A1goras" target="_blank" rel="noopener noreferrer">Teorema de Pitágoras.</a>
+            </p> 
+        </div>
+
+        <div class="container">
+            <h2>Calculadora Teorema de Pitágoras</h2>
+
+            <p>Insira os valores do cateto oposto e do cateto adjacente para descobrir a hipotenusa</p>
+
+            <div class="inputs">
+                <label for="catOposto">Cateto Oposto</label>
+                <input type="number" name="" id="catOposto">
+            </div>
+                
+            <div class="inputs">
+                <label for="catAdjacente">Cateto Adjacente</label>
+                <input type="number" name="" id="catAdjacente">
+            </div>
+                
+            <button type="submit" onclick="hipot()">Calcular</button>
+
+        <div class="resultado">
+            Hipotenusa = 
+        </div>
+
+    </div>
+
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
